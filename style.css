@@ -273,11 +273,13 @@ a{
     padding: 5rem;
     margin-bottom: 1.5rem;
     border-radius: .3rem;
+    top: 0;
+
   }
   .single-service-content:hover{
     border: 2px solid rgb(255, 255, 255);
     background-color: white;
-   
+    
   }
 
   .service-types .single-service-content svg{
