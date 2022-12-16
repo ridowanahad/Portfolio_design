@@ -1,0 +1,155 @@
+@media (min-width: 1201px) and (max-width: 1400px) {
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* about section  */
+  .about-section .about-bio {
+    margin-left: 5rem;
+  }
+
+  .about-section .about-paragraph p {
+    width: 500px;
+  }
+}
+@media (min-width: 776px) and (max-width: 991px) {
+  .nav-section .nav-list ul {
+    display: none;
+  }
+  .nav-section .nav-logo {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-section .nav-logo .menu-round-black {
+    width: 45px;
+    aspect-ratio: 1;
+    background: radial-gradient(closest-side at 12.5% 20%, #000 90%, #0000) 0 0/80%
+        40%,
+      linear-gradient(#000 40%, #0000 0) top/80% 40% repeat-y;
+  }
+  .nav-section .nav-logo .menu-round-white {
+    width: 45px;
+    aspect-ratio: 1;
+    background: radial-gradient(closest-side at 12.5% 20%, #ffffff 90%, #0000) 0
+        0/80% 40%,
+      linear-gradient(#ffffff 40%, #0000 0) top/80% 40% repeat-y;
+  }
+}
+@media (min-width: 440px) and (max-width: 565px) {
+}
+@media (min-width: 320px) and (max-width: 440px) {
+  /* common responsive style */
+
+  /* nav section start  */
+
+  /* home section start  */
+
+  /* about section  */
+
+  .about-section .about-img {
+    margin-right: 12px;
+    width: 380px;
+    height: 440px;
+  }
+
+  .about-section .about-paragraph h2 {
+    font-size: 2rem;
+  }
+  .about-section .about-paragraph p {
+    font-size: 1.5rem;
+    margin-right: 12px;
+    width: 380px;
+  }
+
+  .svgandtitle span label {
+    font-size: 1.2rem;
+  }
+  /* about firsthalf */
+
+  .about-info-firsthalf .birthday {
+    font-size: 1.2rem;
+    margin-right: 5.2rem;
+  }
+
+  .about-info-firsthalf .study {
+    margin-right: 7.8rem;
+    font-size: 1.2rem;
+  }
+
+  .about-info-firsthalf .location {
+    font-size: 1.2rem;
+    margin-right: 2.7rem;
+  }
+
+  .about-info-firsthalf .mail {
+    font-size: 1.2rem;
+    margin-right: -2rem;
+  }
+
+  /* first half end  */
+
+  /* about second half start  */
+
+  .about-info-secondhalf {
+    padding-top: 0;
+  }
+  .about-info-secondhalf .age {
+    font-size: 1.2rem;
+    margin-right: 9.2rem;
+  }
+  .about-info-secondhalf .degree {
+    font-size: 1.2rem;
+    margin-right: 5.9rem;
+  }
+  .about-info-secondhalf .interest {
+    font-size: 1.2rem;
+    margin-right: 3.9rem;
+  }
+  .about-info-secondhalf .phone {
+    margin-right: 4rem;
+    font-size: 1.2rem;
+  }
+
+  /* about second half end  */
+  .download-cv {
+    margin-bottom: 2rem;
+  }
+  .svgandtitle {
+    display: flex;
+  }
+
+  /* about section end  */
+
+  /* service section */
+  .service-section .single-service-content {
+    padding: 10px;
+  }
+  .service-section .single-service-content .service-inner-text h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 400;
+  }
+  /* portfolio section */
+  .portfolio-section .portfolio-nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 13px;
+  }
+  /* counter seciton */
+  .counter-section .counter-content {
+    margin-bottom: 44px;
+  }
+  .counter-section .counter-content h2 {
+    font-size: 26px;
+  }
+  .counter-section .counter-content h3 {
+    font-size: 16px;
+  }
+
+  /* contact section start  */
+
+  .map iframe {
+    margin-right: 12px;
+    width: 380px;
+    height: 400px;
+  }
+}
