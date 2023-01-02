@@ -121,6 +121,19 @@
   .nav-logo{
     left: 39rem;
   }
+  /* .contact-email {
+    width: auto;
+    align-items: center;
+    margin-right: 0;
+  }
+  .contact-name {
+    width: auto;
+    margin-right: 0;
+  }
+  .msg-area {
+    width: auto;
+    margin-right: 0;
+  } */
 }
 @media (max-width: 575px){
   .nav-logo{
@@ -233,6 +246,7 @@
     left: 7rem;
   }
 }
+
 
 
 
@@ -436,14 +450,24 @@
   .download-cv {
     margin-bottom: 2rem;
   }
+  .contact-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+ 
   .contact-email {
-    width: 43rem;
+    width: auto;
+    margin-right: 0;
   }
   .contact-name {
-    width: 43rem;
+    width: auto;
+    margin-right: 0;
   }
   .msg-area {
-    width: 43rem;
+    width: auto;
+    margin-right: 0;
   }
   .map iframe {
     width: 44rem;
@@ -590,22 +614,34 @@
     text-align: center;
   }
 
-  /* .contact-form {
-    display: flex;
-    justify-content: center;
-  } */
   .contact-name {
+    align-items: center;
+    margin-right: 0;
+  }
+    #name {
     width: 32rem;
   }
+  
+    #email {
+    width: 32rem;
+  }
+  
   .contact-email {
+    align-items: center;
+    margin-right: 0;
+  }
+  textarea{
     width: 32rem;
   }
   .msg-area {
-    width: 32rem;
+    align-items: center;
+    margin-right: 0;
   }
 
   .map iframe {
     width: 32rem;
+    align-items: center;
+    margin-right: 0;
     height: 400px;
   }
   .footer-social-link {
@@ -758,19 +794,40 @@
   .contact-title h2 {
     text-align: center;
   }
-
   .contact-name {
+    align-items: center;
+    margin-right: 0;
+  }
+    #name {
     width: 26rem;
   }
+  
+    #email {
+    width: 26rem;
+  }
+  
   .contact-email {
+    align-items: center;
+    margin-right: 0;
+  }
+  textarea{
     width: 26rem;
   }
   .msg-area {
-    width: 26rem;
+    align-items: center;
+    margin-right: 0;
   }
-
-  .submit-msg {
+  .submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     margin-bottom: 2rem;
+  }
+  .map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .map iframe {
@@ -783,7 +840,7 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 440px) {
+@media (min-width: 320px) and (max-width: 439px) {
   /* common responsive style */
 
   /* nav section start  */
@@ -911,21 +968,51 @@
   }
 
   /* contact section start  */
+  .contact-title span {
+    display: flex;
+    justify-content: center;
+  }
+  .contact-title h2 {
+    text-align: center;
+  }
 
   .contact-name {
+    align-items: center;
+    margin-right: 0;
+  }
+    #name {
     width: 18rem;
   }
+  
+    #email {
+    width: 18rem;
+  }
+  
   .contact-email {
+    align-items: center;
+    margin-right: 0;
+  }
+  textarea{
     width: 18rem;
   }
   .msg-area {
-    width: 18rem;
+    align-items: center;
+    margin-right: 0;
   }
 
-  .submit-msg {
+  .submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     margin-bottom: 2rem;
   }
 
+  .map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .map iframe {
     width: auto;
     height: 400px;
@@ -1048,15 +1135,22 @@
 
   .contact-name {
     width: 92vw;
+    margin-right: 0;
   }
   .contact-email {
     width: 92vw;
+    margin-right: 0;
   }
   .msg-area {
     width: 92vw;
+    margin-right: 0;
   }
 
-  .submit-msg {
+  .submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     margin-bottom: 2rem;
   }
 
