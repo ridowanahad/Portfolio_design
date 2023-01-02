@@ -82,11 +82,20 @@ a {
   z-index: 3;
 }
 
+.nav-section input[type="checkbox"],
+.nav-section .hamburger-lines {
+  display: none;
+}
+
 .BgColour {
   color: rgb(255, 255, 255);
   transition: all 1s;
   background-color: #74c5ce;
   border-bottom: 1px solid rgba(211, 211, 211, 0.498);
+}
+.nav-content {
+  display: flex;
+  justify-content: space-between;
 }
 .nav-logo {
   margin-bottom: 1rem;
@@ -100,22 +109,23 @@ a {
   color: #8ff3f6;
 }
 
-.nav-section .nav-list ul {
+.nav-section ul {
   display: flex;
   list-style-type: none;
   justify-content: right;
   padding: 16px 0;
 }
 
-.nav-section .nav-list ul li a {
+.nav-section ul li a {
   padding: 15px;
   font-size: 20px;
   font-weight: 500;
   text-decoration: none;
 }
 
-.nav-section .nav-list ul li a:hover {
+.nav-section ul li a:hover {
   color: #8ff3f6;
+  transition: color 0.3s ease-in-out;
 }
 /* nav section end  */
 
@@ -128,6 +138,7 @@ a {
   background-attachment: fixed;
   background-position: center;
   height: 100vh;
+  width: 100vw;
 }
 
 .home-section .home-profile-img {
@@ -230,6 +241,7 @@ a {
   padding-top: 1.3rem;
 }
 
+
 .about-info-firsthalf .firsthalf-content {
   display: flex;
   justify-content: space-between;
@@ -248,9 +260,6 @@ a {
 }
 .about-info-firsthalf .location {
   margin-right: 4rem;
-}
-.about-info-firsthalf .mail {
-  margin-right: -0.1rem;
 }
 
 /* first four info design end  */
@@ -314,7 +323,7 @@ a {
   top: 0;
 }
 .single-service-content:hover {
-  border: 2px solid rgb(255, 255, 255);
+  border: 2px solid rgb(242, 241, 241);
   background-color: white;
 }
 
@@ -520,6 +529,10 @@ a {
 .map iframe {
   width: 39.5rem;
   height: 380px;
+}
+
+ul.menu-items.translateZero{
+  transform: translateX(0);
 }
 
 /* conatact section end  */
