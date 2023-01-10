@@ -13,19 +13,13 @@ $(document).ready(function () {
   });
 });
 
-
-
 $(document).ready(function () {
- $("#clickme").click((burger)=>{
-    if(burger.target.defaultValue === "yes"){
+  $("#clickme").click((burger) => {
+    if (burger.target.defaultValue === "yes") {
       $(".menu-items").toggleClass("translateZero");
     }
- })
+  });
 });
-
-
-
-
 
 function scrollValue() {
   var navbar = document.getElementById("nav-section");
@@ -49,6 +43,4 @@ window.addEventListener("scroll", scrollValue);
 
 // window.addEventListener("scroll", scrollValue2);
 
-// hamburger menu 
-
-
+// hamburger menu
