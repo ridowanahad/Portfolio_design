@@ -315,16 +315,19 @@ a {
 /* service section start  */
 
 .two-service {
-  padding-bottom: 3rem
+  padding-bottom: 3rem;
 }
 .three-service {
-  padding-bottom: 3rem
+  padding-bottom: 3rem;
 }
 .four-service {
-  padding-bottom: 3rem
+  padding-bottom: 4.5rem;
+}
+.five-service {
+  padding-bottom: 3rem;
 }
 .six-service {
-  padding-bottom: -1rem
+  padding-bottom: 3rem;
 }
 
 .single-service-content {

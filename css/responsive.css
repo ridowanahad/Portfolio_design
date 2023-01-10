@@ -443,6 +443,15 @@
   }
 
   /* about second half end  */
+
+  /* services  */
+  .four-service {
+    padding-bottom: 3rem;
+  }
+  .six-service {
+    padding-bottom: 1.5rem;
+  }
+
   .download-cv {
     margin-bottom: 2rem;
   }
@@ -512,7 +521,7 @@
     width: auto;
   }
 
-    /* about firsthalf */
+  /* about firsthalf */
 
   .about-info-firsthalf .birthday {
     margin-right: 5.5rem;
@@ -527,7 +536,7 @@
   }
 
   /* first half end  */
- .about-info-secondhalf {
+  .about-info-secondhalf {
     padding-top: 0;
   }
   /* about second half end  */
